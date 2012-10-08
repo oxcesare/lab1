@@ -9,6 +9,12 @@ import java.util.*;
  */
 
 public class SessionCurso {
+	static final String NUEVA_LINEA = System.getProperty("line.separator");
+	
+	static final String ENCABEZADO_LISTA_REPORTE = "Estudiante" + NUEVA_LINEA + "----" +  NUEVA_LINEA;
+	
+	
+	
 	private String departamento;
 	private String numero;
 	private java.util.ArrayList<Estudiante> estudiantes = new java.util.ArrayList<Estudiante>();
