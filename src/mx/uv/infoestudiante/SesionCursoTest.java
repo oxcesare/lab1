@@ -63,7 +63,17 @@ public class SesionCursoTest extends junit.framework.TestCase{
 	public void testFechasCurso(){
 		Date diezYSiesSemanas = crearFecha(2003,4,25);
 		assertEquals(diezYSiesSemanas, sesion.getFechaFin());
+			
+	}
+	
+	public void testListaReporte(){
+		sesion.inscribir(new Estudiante("A"));
+		sesion.inscribir(new Estudiante("B"));
 		
+		String listReporte = sesion.getListaReporte();
+		assertEquals(SessionCurso.ENCABEZADO_LISTA_REPORTE +
+				"A\nB\n" + 
+				SessionCurso.PIE_DE_PAGINA_LISTA_REPORTE + "\2n",listaReporte);
 		
 	}
 
