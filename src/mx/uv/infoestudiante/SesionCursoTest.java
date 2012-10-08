@@ -3,6 +3,9 @@ import junit.framework.TestCase;
 import java.util.*;
 
 
+
+
+
 public class SesionCursoTest extends junit.framework.TestCase{
    private SessionCurso sesion;
    private Date  FechaInicio;
