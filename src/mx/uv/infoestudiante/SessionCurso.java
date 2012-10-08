@@ -13,6 +13,7 @@ public class SessionCurso {
 	
 	static final String ENCABEZADO_LISTA_REPORTE = "Estudiante" + NUEVA_LINEA + "----" +  NUEVA_LINEA;
 	
+	static final String PIE_DE_PAGINA_LISTA_REPORTE = NUEVA_LINEA + "# estudiantes=";
 	
 	
 	private String departamento;
