@@ -1,6 +1,13 @@
 package mx.uv.infoestudiante;
 import java.util.*;
 
+/**
+ * Proove una representacion de una sesion de 
+ * un semestre de un curso universitario en particular
+ * @author Cesa Ricardo Alducin Ruiz
+ *
+ */
+
 public class SessionCurso {
 	private String departamento;
 	private String numero;
