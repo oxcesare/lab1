@@ -29,6 +29,11 @@ public class SessionCurso {
 	}
 	
 	
+	/**
+	 * 
+	 * @return Date el ultimo dia de la fecha de un curso 
+	 */
+	
 	Date getFechaFin(){
 		GregorianCalendar  calendario = new GregorianCalendar();
 	    calendario.setTime(fechaInicio);
@@ -46,11 +51,7 @@ public class SessionCurso {
 	Date getFechaInicio(){
 		return fechaInicio;
 	}
-	
-	
-	
-	
-    
+		   
 	String getDepartamento(){
 		return departamento;
 	}
