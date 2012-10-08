@@ -77,6 +77,25 @@ public class SessionCurso {
 	Estudiante get(int indice){
 		return estudiantes.get(indice);
 	}
+	
+	String getListaReporte(){
+		StringBuilder buffer = new StringBuilder();
+		buffer.append(ENCABEZADO_LISTA_REPORTE);
+		Estudiante estudiante = estudiantes.get(0);
+		buffer.append(estudiante.getNombre());
+		buffer.append("\n");
+		
+		estudiante = estudiantes.get(1);
+		buffer.append(estudiante.getNombre());
+		buffer.append("\n");
+		
+		
+		buffer.append(PIE_DE_PAGINA_LISTA_REPORTE + estudiantes.size() + "\n");
+		
+		
+		return buffer.toString();
+		
+	}
 
 
 }

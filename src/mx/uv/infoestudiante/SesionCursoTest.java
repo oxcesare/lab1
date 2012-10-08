@@ -70,7 +70,7 @@ public class SesionCursoTest extends junit.framework.TestCase{
 		sesion.inscribir(new Estudiante("A"));
 		sesion.inscribir(new Estudiante("B"));
 		
-		String listReporte = sesion.getListaReporte();
+		String listaReporte = sesion.getListaReporte();
 		assertEquals(SessionCurso.ENCABEZADO_LISTA_REPORTE +
 				"A\nB\n" + 
 				SessionCurso.PIE_DE_PAGINA_LISTA_REPORTE + "\2n",listaReporte);
