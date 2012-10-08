@@ -1,3 +1,4 @@
+package mx.uv.infoestudiante;
 public class EstudianteTest extends junit.framework.TestCase {
   
    public void testCrear(){
